@@ -1,0 +1,7 @@
+@use 'main.bundle' as mb; // 네임스페이스를 지정하여 사용
+
+{%- if jekyll.environment == 'production' -%}
+  @include mb.someMixin(); // 믹스인 사용 예시
+{%- endif -%}
+
+/* append your custom style below */
