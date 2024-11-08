@@ -1,1 +1,1 @@
-# ming.github.io
+# Ming's blog
